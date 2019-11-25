@@ -23,5 +23,5 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-
+puts "this many #{BRANDS.size}"
 end
