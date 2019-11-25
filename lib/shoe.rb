@@ -17,7 +17,7 @@ class Shoe
         puts "Unique brand is : #{brand}"
       end
     end
-    counter += 1
+    @@counter += 1
   end
 
   def cobble
