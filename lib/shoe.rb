@@ -9,6 +9,7 @@ class Shoe
     BRANDS.each do |shoe|
       if shoe == brand
         #don't add it to BRANDS since it's already there
+        puts "does this even shoe???"
       else
         BRANDS << brand
         puts BRANDS.length
