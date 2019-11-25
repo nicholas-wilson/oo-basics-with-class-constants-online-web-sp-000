@@ -11,7 +11,7 @@ class Shoe
         #don't add it to BRANDS since it's already there
       else
         BRANDS << brand
-        puts BRANDS
+        puts BRANDS.length
       end
     end
   end
