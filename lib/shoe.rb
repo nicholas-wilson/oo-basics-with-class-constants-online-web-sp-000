@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
 
     BRANDS.each do |shoe|
-      puts "The #{counter} time running"
+      puts "The #{@@counter} time running"
       if shoe == brand
         #don't add it to BRANDS since it's already there
         puts "The shoe brand was #{brand}"
