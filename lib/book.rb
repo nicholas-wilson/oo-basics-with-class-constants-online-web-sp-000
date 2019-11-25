@@ -2,7 +2,7 @@ class Book
   attr_accessor :author, :page_count, :genre
   attr_reader :title
 
-  GENRES = ["Thriller", "Sci-Fi"]
+  GENRES = ["Thriller", "Science Fiction", "Drama"]
 
   def initialize(title)
     @title = title
