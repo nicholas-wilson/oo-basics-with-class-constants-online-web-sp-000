@@ -1,12 +1,12 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
-
+  @@counter = 1
   BRANDS = ["Uggs", "Rainbow"]
 
   def initialize(brand)
     @brand = brand
-    counter = 1
+
     BRANDS.each do |shoe|
       puts "The #{counter} time running"
       if shoe == brand
