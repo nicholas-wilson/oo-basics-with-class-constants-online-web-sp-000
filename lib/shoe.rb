@@ -6,7 +6,9 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    counter = 1
     BRANDS.each do |shoe|
+
       if shoe == brand
         #don't add it to BRANDS since it's already there
         puts "The shoe brand was #{brand}"
