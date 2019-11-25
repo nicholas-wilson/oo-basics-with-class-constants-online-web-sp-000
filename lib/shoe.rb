@@ -12,7 +12,7 @@ class Shoe
         puts "The shoe brand was #{brand}"
       else
         BRANDS << brand
-        puts BRANDS.length
+        puts "Unique brand is : #{brand}"
       end
     end
   end
